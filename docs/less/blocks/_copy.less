@@ -1,0 +1,62 @@
+.copyright {
+	padding-top: 25px;
+	padding-bottom: 30px;
+	background-color: #FFF;
+}
+.copyright__text {
+	color: #555555;
+	font-size: 14px;
+	font-weight: 700;
+	letter-spacing: -0.35px;
+}
+
+.copyright__icons {
+	text-align: center;
+	color: #FFF;
+	.fab {
+		color: #FFF;
+		font-size: 18px;
+		width: 40px;
+		height: 40px;
+		text-align: center;
+		line-height: 40px;
+		border-radius: 100%;
+	}
+	.fa-twitter, .fa-facebook, .fa-pinterest, .fa-google-plus-g {
+	background-color: #222;
+	&:hover, &:focus, &:active {
+		background-color: #7cc576;
+		.transition
+	}	
+}
+	a {
+		margin-right: 5px;
+	}
+}
+
+.line {
+	display: none;
+	@media (min-width: 992px) {
+		display: block;
+	}
+}
+
+.line::after {
+	width: 171px;
+	height: 3px;
+	background-color: #777777;
+	position: absolute;
+	content:"";
+	top: 40px;
+	left: -85px;
+}
+.line::before {
+	width: 171px;
+	height: 3px;
+	background-color: #777777;
+	position: absolute;
+	content:"";
+	top: 40px;
+	right: -85px;
+}
+
