@@ -8,10 +8,16 @@
 .questions__heading {
 	margin: 0;
 	color: #ffffff;
-	font-size: 40px;
+	font-size: 20px;
 	font-weight: 700;
 	text-transform: uppercase;
 	letter-spacing: -2px;
+	@media (min-width: 768px) {
+		font-size: 30px;
+	}
+	@media (min-width: 992px) {
+		font-size: 40px;
+	}
 }
 .questions__button {
 	display: inline-block;
@@ -30,5 +36,19 @@
 		background-color: #000;
 		border: 3px solid #000;
 		.transition
+	}
+}
+
+.img-brands {
+	text-align: center;
+	@media (min-width: 768px) {
+		margin-bottom: 50px;
+	}
+}
+
+.img-brands img {
+	margin-bottom: 30px;
+	@media (min-width: 768px) {
+		margin-bottom: 0;
 	}
 }

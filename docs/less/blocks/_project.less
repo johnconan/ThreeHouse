@@ -15,27 +15,42 @@
 .img__wrap {
 	position: absolute;
 	right: 0;
+	display: none;
+	@media (min-width: 1200px) {
+		display: block;
+	}
 }
 
 .project {
-	margin-top: 80px;
+	margin-top: 40px;
 	text-align: center;
-	margin-bottom: 70px;
+	margin-bottom: 20px;
+	@media (min-width: 992px) {
+		margin-bottom: 70px;
+		margin-top: 80px;
+	}
 }
+
 .project__header {
 	color: #222222;
-	font-size: 40px;
+	font-size: 24px;
 	font-weight: 700;
 	text-transform: uppercase;
 	letter-spacing: -2px;
 	margin: 0;
+	@media (min-width: 992px) {
+		font-size: 40px;
+	}
 }
 .project__text {
 	color: #777777;
 	font-family: "Roboto Slab";
-	font-size: 20px;
+	font-size: 14px;
 	font-weight: 400;
 	letter-spacing: -0.5px;
+	@media (min-width: 992px) {
+		font-size: 20px;
+	}
 }
 
 .framework {
@@ -48,10 +63,13 @@
 .framework__text {
 	color: #777777;
 	font-family: "Roboto Slab";
-	font-size: 16px;
+	font-size: 14px;
 	font-weight: 400;
 	letter-spacing: -0.4px;
 	margin-bottom: 15px;
+	@media (min-width: 992px) {
+		font-size: 16px;
+	}
 }
 
 .project__desc__title {
@@ -63,13 +81,19 @@
 .project__desc__text {
 	color: #777777;
 	font-family: "Roboto Slab";
-	font-size: 16px;
+	font-size: 14px;
 	font-weight: 400;
 	letter-spacing: -0.4px;
+	@media (min-width: 992px) {
+		font-size: 16px;
+	}
 }
 .link-wrap {
 	margin-top: 15px;
-	margin-bottom: 90px;
+	margin-bottom: 30px;
+	@media (min-width: 992px) {
+		margin-bottom: 90px;
+	}
 }
 .link-wrap a {
 	text-decoration: none;
