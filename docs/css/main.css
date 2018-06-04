@@ -916,7 +916,7 @@ p {
   display: block;
   cursor: pointer;
   top: 30px;
-  right: 0px;
+  right: 10px;
   position: absolute;
   overflow: hidden;
   margin: 0;
@@ -994,7 +994,6 @@ p {
 }
 /* active state*/
 .cmn-toggle-switch__htx.active {
-  position: fixed;
   right: 10px;
 }
 .cmn-toggle-switch__htx.active span {
@@ -1016,23 +1015,6 @@ p {
 .cmn-toggle-switch__htx.active span::after {
   -webkit-transition-delay: 0, 0.3s;
   transition-delay: 0, 0.3s;
-}
-.navigation__toggle {
-  display: block;
-  font-size: 38px;
-  position: absolute;
-  top: 23px;
-  right: 16px;
-  cursor: pointer;
-  z-index: 2;
-}
-@media (min-width: 992px) {
-  .navigation__toggle {
-    display: none;
-  }
-}
-.navigation__toggle--fixed {
-  position: fixed;
 }
 .header {
   height: 531px;
